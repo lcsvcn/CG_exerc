@@ -1,0 +1,23 @@
+compilar: 
+g++ -o exec main.cpp -lGL -lGLU -lglut -lm
+
+1 - diminui o red da luz
+2- aumenta o red da luz
+3 - diminui o green da luz
+4- aumenta o green da luz
+5 - diminui o blue da luz
+6- aumenta o blue da luz
+7 - aumenta a especificação do material
+8 - diminui a especificação do material
+home - mais zoom
+end - menos zoom 
+mouse - move o objeto
+t - toggle emissão da luz
+
+defines:
+
+N -> tamanho da malha, qnto maior melhor a renderização, mais processamento necessário.
+SHADE_MODEL -> se 0 usa shade_model flat, se diferente de 0 set shade_model Gouraud
+DEV -> Liga printf do codigo, modo desenvolvedor
+
+
